@@ -37,7 +37,7 @@ locally verified consensus.
 ## Verify
 
 ```bash
-clojure -M:test
-clojure -M:lint
-clojure -M:coverage
+kbb -M:test
+kbb -M:lint
+kbb -M:coverage
 ```
