@@ -6,7 +6,7 @@
             [chain.observer.protocol :as observer]
             [chain.observer.solana :as solana]
             [chain.observer.substrate :as substrate]
-            [clojure.test :refer [deftest is]]))
+            [kotoba.test :refer [deftest is]]))
 
 (defn- fixture-observer [adapter fixtures calls]
   (observer/observer
